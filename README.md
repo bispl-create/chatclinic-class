@@ -4,6 +4,10 @@ Course companion repository for the **KAIST AI619** class offered in **Spring 20
 
 This repository supports the `ChatClinic` project workflow used in the course.
 
+Main platform repository:
+
+- [ChatClinic](https://github.com/bispl-create/chatclinic)
+
 This repository is meant for:
 
 - student team signup
@@ -22,6 +26,7 @@ It is useful to keep two repositories:
    - production or demo-ready tools
    - master Skill
    - shared runner
+   - GitHub: [https://github.com/bispl-create/chatclinic](https://github.com/bispl-create/chatclinic)
 
 2. **KAIST AI619 course repo**
    - course instructions
@@ -39,21 +44,6 @@ This prevents the platform repository from becoming overloaded with course admin
 - [Skill patch template](docs/SKILL_PATCH_TEMPLATE.md)
 - [Submission site specification](docs/SUBMISSION_SITE_SPEC.md)
 - [Master Skill integration guide](docs/MASTER_SKILL_INTEGRATION.md)
-- [Signup sheet template](docs/SIGNUP_SHEET_TEMPLATE.md)
-- [Google Form questions](docs/GOOGLE_FORM_QUESTIONS.md)
-
-## Signup and submission
-
-Recommended workflow:
-
-- Use a shared signup sheet for topic reservation
-- Use the final submission form or issue template for plugin delivery
-
-This repository includes:
-
-- a signup sheet template
-- a CSV signup template
-- a final submission issue template
 
 ## Recommended class workflow
 
