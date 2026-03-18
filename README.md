@@ -58,6 +58,21 @@ This prevents the platform repository from becoming overloaded with course admin
 
 The official final submission site or upload method will be announced later through **KLMS**.
 
+## Submission timeline
+
+There are two recommended submission/presentation windows for the class project:
+
+1. **Midterm-period early track**
+   - teams that finish early may submit and present during the midterm period
+   - this early track is intended for teams that want feedback sooner
+   - **bonus consideration** should be given to teams that complete a strong, integrable project by this earlier window
+
+2. **Final-period regular track**
+   - the default submission and presentation window is the final exam period
+   - teams that do not use the early track should follow the final-period schedule
+
+Exact calendar dates will be announced separately in class or through **KLMS**.
+
 ## Current signup sheet
 
 Current team signup sheet:
@@ -87,6 +102,8 @@ For example, in a segmentation topic, a team that proposes:
 - a brain tumor segmentation tool
 
 with a clear Skill patch describing **which tool should be selected for which modality or clinical context**, should receive bonus consideration.
+
+Additional bonus consideration may also be given to teams that complete a strong submission in the **midterm-period early track** rather than waiting until the final-period deadline.
 
 ## Reference policy
 

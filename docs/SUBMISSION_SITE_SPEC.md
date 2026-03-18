@@ -12,6 +12,21 @@ The best submission format is:
 
 For **topic signup**, use a shared sheet rather than a free-form form.
 
+## Submission and presentation timeline
+
+The class project should support two windows:
+
+1. **Midterm-period early submission/presentation**
+   - teams may submit and present during the midterm period if they finish early
+   - this is encouraged for teams that want early feedback and early integration review
+   - a strong early submission should receive **bonus consideration**
+
+2. **Final-period regular submission/presentation**
+   - this is the standard path for most teams
+   - teams that do not use the early track should present and submit during the final exam period
+
+Exact dates should be announced later through **KLMS** or in-class notice.
+
 ## Team signup sheet
 
 Use one shared sheet with:
@@ -192,6 +207,11 @@ Until then, students should focus on:
 - forming a team
 - preparing the plugin package
 - preparing the Skill patch proposal
+
+In addition, students should decide whether they aim for:
+
+- the **midterm-period early track**, which may receive bonus consideration
+- or the **final-period regular track**
 
 ## Final submission fields
 

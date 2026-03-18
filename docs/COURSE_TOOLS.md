@@ -64,6 +64,13 @@ Basic credit comes from:
 
 Additional credit should be given when a team goes beyond a single isolated tool.
 
+There are also two practical timing tracks for the class:
+
+- **midterm-period early track**
+- **final-period regular track**
+
+Teams that complete a strong, integration-ready submission by the **midterm period** should receive positive bonus consideration, because early completion creates more time for feedback, review, and integration into the shared system.
+
 ### Recommended bonus criterion
 
 Give extra credit when a team:
