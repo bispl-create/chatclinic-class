@@ -1,0 +1,13 @@
+# Skill Rationale
+
+## Why this tool should exist
+- ...
+
+## Why the orchestrator should call it
+- ...
+
+## Why approval is or is not required
+- ...
+
+## What educational value it adds
+- ...

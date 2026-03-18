@@ -1,0 +1,9 @@
+{
+  "name": "team_name_tool",
+  "team": "team_name",
+  "task_type": "analysis-task",
+  "modality": "clinical-table",
+  "approval_required": true,
+  "entrypoint": "run.py",
+  "description": "Short human-readable description of the tool."
+}
