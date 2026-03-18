@@ -38,8 +38,6 @@ Recommended columns:
 
 See:
 
-- [Signup sheet template](SIGNUP_SHEET_TEMPLATE.md)
-- [CSV template](signup_sheet_template.csv)
 - [Current Google signup sheet](https://docs.google.com/spreadsheets/d/1qBiqZgEwJXho3MgaGZzxPte99jxD6xyUUIj5OkFNZIY/edit?usp=sharing)
 
 ## Topic categories and representative papers
@@ -206,8 +204,12 @@ Until then, students should focus on:
 - Plugin zip upload
 - `skill_patch.md` upload
 - `skill_rationale.md` upload
-- Optional demo video
-- Optional sample input/output bundle
+- Background papers for the tool
+- Presentation slides explaining:
+  - the selected background model or method
+  - how the tool was implemented
+  - how the tool should be integrated into `ChatClinic`
+  - how the Skill patch controls when the tool should be used
 
 ## Recommended zip structure
 

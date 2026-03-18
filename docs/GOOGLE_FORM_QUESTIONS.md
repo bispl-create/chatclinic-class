@@ -4,8 +4,7 @@ Use this document to create the **final submission form**.
 
 For signup, use the shared topic sheet instead:
 
-- [Signup sheet template](SIGNUP_SHEET_TEMPLATE.md)
-- [CSV template](signup_sheet_template.csv)
+- [Current Google signup sheet](https://docs.google.com/spreadsheets/d/1qBiqZgEwJXho3MgaGZzxPte99jxD6xyUUIj5OkFNZIY/edit?usp=sharing)
 
 ## Form: Final submission
 
@@ -32,7 +31,7 @@ The official final submission link or upload process will be announced later thr
 
 4. Task type
    - Multiple choice
-   - segmentation / classification / detection / restoration / registration / VLM / RAG / clinical-reasoning / agentic-tool / database-tool / other
+   - segmentation / classification / detection / restoration / registration / VLM / RAG / clinical-reasoning / agentic-tool / other
 
 5. Primary modality
    - Multiple choice
@@ -53,14 +52,21 @@ The official final submission link or upload process will be announced later thr
 10. Expected artifacts
     - Paragraph
 
-11. Optional demo video link
-    - Short answer
+11. Background papers for the tool
+    - Paragraph
 
-12. Optional sample input/output link
-    - Short answer
+12. Presentation slide link or upload
+    - File upload or short answer link
 
-13. Agreement: The tool follows the plugin execution contract
+13. Presentation should explain
+    - Checkboxes
+    - selected background model or method
+    - implementation details
+    - tool integration into ChatClinic
+    - Skill patch logic for tool selection
+
+14. Agreement: The tool follows the plugin execution contract
     - Checkbox
 
-14. Agreement: The instructor may request revision before integration
+15. Agreement: The instructor may request revision before integration
     - Checkbox
