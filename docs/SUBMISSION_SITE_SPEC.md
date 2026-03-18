@@ -204,7 +204,6 @@ Until then, students should focus on:
 - Plugin zip upload
 - `skill_patch.md` upload
 - `skill_rationale.md` upload
-- Background papers for the tool
 - Presentation slides explaining:
   - the selected background model or method
   - how the tool was implemented
