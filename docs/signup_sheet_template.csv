@@ -1,0 +1,11 @@
+Topic,Description,Student 1,Student 2,Student 3,Student 4,Status,Notes
+Segmentation,"cancer segmentation for brain, liver, etc",,,,,"Open",
+Classification,"CXR diagnosis, dementia diagnosis from brain MRI, etc",,,,,"Open",
+Detection,"endoscopy cancer detection, lung nodule detection, etc",,,,,"Open",
+Restoration,"low dose CT denoising, low dose CXR denoising, MR denoising, etc",,,,,"Open",
+Image registration,"registration across clinical imaging domains",,,,,"Open",
+Medical VLM,"medical visual language model project",,,,,"Open",
+Medical RAG,"retrieval-augmented generation for medical tasks",,,,,"Open",
+Clinical Reasoning Model,"reasoning-oriented clinical agent project",,,,,"Open",
+Agentic model,"MCP or agent2agent to external servers",,,,,"Open",
+Database management tool,"DICOM/FHIR/public medical dataset search and update",,,,,"Open",

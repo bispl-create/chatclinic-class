@@ -1,6 +1,8 @@
-# ChatClinic Class
+# KAIST AI619 (Spring 2026)
 
-Classroom companion repository for `ChatClinic`.
+Course companion repository for the **KAIST AI619** class offered in **Spring 2026**.
+
+This repository supports the `ChatClinic` project workflow used in the course.
 
 This repository is meant for:
 
@@ -21,7 +23,7 @@ It is useful to keep two repositories:
    - master Skill
    - shared runner
 
-2. **ChatClinic class repo**
+2. **KAIST AI619 course repo**
    - course instructions
    - signup sheet specification
    - plugin submission templates
@@ -37,6 +39,21 @@ This prevents the platform repository from becoming overloaded with course admin
 - [Skill patch template](docs/SKILL_PATCH_TEMPLATE.md)
 - [Submission site specification](docs/SUBMISSION_SITE_SPEC.md)
 - [Master Skill integration guide](docs/MASTER_SKILL_INTEGRATION.md)
+- [Signup sheet template](docs/SIGNUP_SHEET_TEMPLATE.md)
+- [Google Form questions](docs/GOOGLE_FORM_QUESTIONS.md)
+
+## Signup and submission
+
+Recommended workflow:
+
+- Use a shared signup sheet for topic reservation
+- Use the final submission form or issue template for plugin delivery
+
+This repository includes:
+
+- a signup sheet template
+- a CSV signup template
+- a final submission issue template
 
 ## Recommended class workflow
 
@@ -48,6 +65,25 @@ This prevents the platform repository from becoming overloaded with course admin
 4. The instructor reviews the tool and the proposed orchestration rule.
 5. Accepted tools are integrated into the main `ChatClinic` repository.
 6. Accepted Skill patches are merged into one master `SKILL.md`.
+
+## Grading note
+
+Projects that only submit a single standalone tool can still receive good credit.
+
+However, higher credit should be given to teams that:
+
+- build multiple related tools within the same topic
+- design a Skill patch that explains when each tool should be used
+- specify how tool choice depends on context
+- define ordering or dependency rules clearly
+
+For example, in a segmentation topic, a team that proposes:
+
+- a CXR lung segmentation tool
+- a liver cancer segmentation tool
+- a brain tumor segmentation tool
+
+with a clear Skill patch describing **which tool should be selected for which modality or clinical context**, should receive bonus consideration.
 
 ## Submission package structure
 

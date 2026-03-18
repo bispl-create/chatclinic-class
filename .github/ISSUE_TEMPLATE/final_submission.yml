@@ -1,0 +1,137 @@
+name: Final submission
+description: Submit the final plugin package and Skill patch proposal for integration review
+title: "[SUBMISSION] Team <team-name> - <tool-name>"
+labels:
+  - submission
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this issue for final project submission review.
+
+        Attach or link:
+        - final plugin zip
+        - skill_patch.md
+        - skill_rationale.md
+        - optional demo video or sample outputs
+
+  - type: input
+    id: team_name
+    attributes:
+      label: Team name
+      placeholder: Team Alpha
+    validations:
+      required: true
+
+  - type: input
+    id: tool_name
+    attributes:
+      label: Tool name
+      placeholder: team_alpha_cxr_detection
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Submission version
+      placeholder: v1.0.0
+    validations:
+      required: true
+
+  - type: dropdown
+    id: task_type
+    attributes:
+      label: Task type
+      options:
+        - segmentation
+        - classification
+        - detection
+        - restoration
+        - registration
+        - vlm
+        - rag
+        - clinical-reasoning
+        - agentic-tool
+        - database-tool
+        - other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: modality
+    attributes:
+      label: Primary modality
+      options:
+        - medical-image
+        - clinical-table
+        - fhir
+        - hl7
+        - note
+        - mixed
+    validations:
+      required: true
+
+  - type: textarea
+    id: package_contents
+    attributes:
+      label: Submission package contents
+      description: Confirm that your package includes the expected files
+      placeholder: |
+        plugin/tool.json
+        plugin/run.py
+        plugin/README.md
+        skill_update/skill_patch.md
+        skill_update/skill_rationale.md
+    validations:
+      required: true
+
+  - type: textarea
+    id: plugin_link
+    attributes:
+      label: Plugin package link
+      description: GitHub release asset, drive link, or repository path
+      placeholder: https://...
+    validations:
+      required: true
+
+  - type: textarea
+    id: skill_patch_summary
+    attributes:
+      label: Skill patch summary
+      description: Summarize when this tool should be called and whether approval is required
+      placeholder: Use this tool when ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected_artifacts
+    attributes:
+      label: Expected artifacts
+      placeholder: |
+        - cohort_browser
+        - segmentation_mask
+        - report_draft
+    validations:
+      required: true
+
+  - type: textarea
+    id: runtime_requirements
+    attributes:
+      label: Runtime requirements
+      description: List Python packages, model weights, GPU requirements, or external dependencies
+      placeholder: python packages, weights, GPU, no internet, etc
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Final checklist
+      options:
+        - label: Our tool follows the plugin contract and runs with --input and --output.
+          required: true
+        - label: We included a Skill patch proposal instead of a full replacement Skill.
+          required: true
+        - label: We understand the instructor may request revisions before integration.
+          required: true

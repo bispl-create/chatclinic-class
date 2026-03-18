@@ -21,3 +21,30 @@ When merging proposals into the master Skill:
 - keep routing policy human-readable
 - do not copy implementation details from `run.py`
 - prefer one short rule over many scattered mentions
+
+## Educational bonus consideration
+
+When reviewing student submissions, give positive weight to proposals that show real orchestration thinking.
+
+In particular, stronger submissions often:
+
+- introduce multiple tools inside one topic
+- explain when one tool should be preferred over another
+- explain how tool choice changes by context or modality
+- define approval rules clearly
+- produce complementary artifacts rather than duplicate outputs
+
+Example:
+
+- in a segmentation project, a team may submit:
+  - a CXR lung segmentation tool
+  - a liver cancer segmentation tool
+  - a brain tumor segmentation tool
+
+This is better than a single isolated tool if the Skill patch clearly explains:
+
+- which context triggers each tool
+- which modality or case type maps to which tool
+- what each tool contributes to the final result
+
+That kind of proposal should generally receive more credit than a plugin that only performs one isolated operation without orchestration logic.

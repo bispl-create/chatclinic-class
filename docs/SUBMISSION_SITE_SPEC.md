@@ -10,6 +10,32 @@ The best submission format is:
 - plugin code in a zip
 - Skill update as a patch proposal
 
+For **topic signup**, use a shared sheet rather than a free-form form.
+
+## Team signup sheet
+
+Use one shared sheet with:
+
+- topic rows
+- four student columns
+- first-come, first-served filling
+
+Recommended columns:
+
+- `Topic`
+- `Description`
+- `Student 1`
+- `Student 2`
+- `Student 3`
+- `Student 4`
+- `Status`
+- `Notes`
+
+See:
+
+- [Signup sheet template](SIGNUP_SHEET_TEMPLATE.md)
+- [CSV template](signup_sheet_template.csv)
+
 ## Final submission fields
 
 - Team name

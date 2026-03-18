@@ -53,6 +53,50 @@ Examples:
 - FHIR summarization
 - cohort analytics
 
+## Grading emphasis
+
+Basic credit comes from:
+
+- a valid plugin
+- a correct execution contract
+- useful structured artifacts
+- a clear Skill patch proposal
+
+Additional credit should be given when a team goes beyond a single isolated tool.
+
+### Recommended bonus criterion
+
+Give extra credit when a team:
+
+- integrates **multiple tools within the same topic**
+- explains in the Skill patch **when each tool should be used**
+- explains **how tool choice changes by context**
+- defines **ordering or dependency rules** between tools
+
+Example:
+
+- a segmentation topic may include:
+  - a CXR lung segmentation tool
+  - a liver cancer segmentation tool
+  - a brain tumor segmentation tool
+- the Skill patch should then explain:
+  - when the CXR tool should be selected
+  - when the liver tool should be selected
+  - when the brain tumor tool should be selected
+  - how tool choice changes by modality or data type
+  - when approval is needed
+
+This is educationally valuable because it teaches students that Agentic AI is not only about building one model, but about designing a system in which multiple tools are orchestrated properly.
+
+### Suggested interpretation
+
+Higher-scoring projects usually demonstrate:
+
+- more than one useful tool in the same topic area
+- a thoughtful orchestration policy
+- clear conditions for tool selection
+- stronger integration with the master Skill and Studio artifacts
+
 ## Recommended submission structure
 
 ```text
