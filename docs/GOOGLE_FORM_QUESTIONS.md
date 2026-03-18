@@ -17,6 +17,8 @@ For signup, use the shared topic sheet instead:
 
 Use this form to submit your final plugin package and Skill patch proposal for instructor review and possible integration into ChatClinic.
 
+The official final submission link or upload process will be announced later through **KLMS**.
+
 ### Suggested questions
 
 1. Team name

@@ -56,6 +56,19 @@ This prevents the platform repository from becoming overloaded with course admin
 5. Accepted tools are integrated into the main `ChatClinic` repository.
 6. Accepted Skill patches are merged into one master `SKILL.md`.
 
+The official final submission site or upload method will be announced later through **KLMS**.
+
+## Current signup sheet
+
+Current team signup sheet:
+
+- [Google signup sheet](https://docs.google.com/spreadsheets/d/1qBiqZgEwJXho3MgaGZzxPte99jxD6xyUUIj5OkFNZIY/edit?usp=sharing)
+
+Note:
+
+- the link is reachable
+- Google may require sign-in depending on sharing settings
+
 ## Grading note
 
 Projects that only submit a single standalone tool can still receive good credit.
@@ -74,6 +87,16 @@ For example, in a segmentation topic, a team that proposes:
 - a brain tumor segmentation tool
 
 with a clear Skill patch describing **which tool should be selected for which modality or clinical context**, should receive bonus consideration.
+
+## Reference policy
+
+The papers listed in the course documents are representative examples, not a fixed mandatory list.
+
+Students may use other appropriate papers as long as they:
+
+- clearly cite them
+- explain why they are relevant
+- explain how their tool relates to the cited baseline
 
 ## Submission package structure
 
