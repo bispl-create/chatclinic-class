@@ -31,10 +31,21 @@ Instead, submit a small proposal describing how the orchestrator should use the 
 - `other_tool_name`
 - or `none`
 
+## Runtime
+- host compatible: cpu / gpu / both
+- supported accelerators: cpu / gpu
+- preferred accelerator: cpu / gpu
+- requires gpu: yes / no
+- cpu fallback allowed: yes / no
+- estimated runtime: e.g. 5 sec / 45 sec / 2 min
+
 ## Approval policy
 - approval required / approval not required
 
 ## Produces
 - `artifact_name`
 - `artifact_name`
+
+## Example routing note
+- Use `image_review_tool` first for PNG/JPG/TIFF raster images, then route to my tool only when the modality hint matches the intended clinical use case.
 ```
