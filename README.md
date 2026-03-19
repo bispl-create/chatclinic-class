@@ -2,11 +2,10 @@
 
 Course companion repository for the **KAIST AI619** class offered in **Spring 2026**.
 
-<div style="padding:12px 16px; border-radius:12px; background:#fff1f2; border:2px solid #fb7185; color:#9f1239; margin:16px 0;">
-  <strong>Revision history</strong><br/>
-  <strong>March 2026 update:</strong> ChatClinic now supports CPU/GPU-aware tool runtime metadata and first-pass raster medical image intake for <code>PNG</code>, <code>JPG/JPEG</code>, and <code>TIFF</code> via <code>image_review_tool</code>.<br/>
-  <strong>March 2026 update:</strong> Final submissions must now clearly include the plugin package, Skill patch, background papers for the tool, and presentation slides explaining implementation and ChatClinic integration.
-</div>
+> [!IMPORTANT]
+> **Revision history**
+> - **March 2026 update:** ChatClinic now supports CPU/GPU-aware tool runtime metadata and first-pass raster medical image intake for `PNG`, `JPG/JPEG`, and `TIFF` via `image_review_tool`.
+> - **March 2026 update:** Final submissions must now clearly include the plugin package, Skill patch, background papers for the tool, and presentation slides explaining implementation and ChatClinic integration.
 
 This repository supports the `ChatClinic` project workflow used in the course.
 
