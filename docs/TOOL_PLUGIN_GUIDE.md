@@ -2,6 +2,11 @@
 
 This guide explains how collaborators and student teams can add a new tool for `ChatClinic`.
 
+<div style="padding:12px 16px; border-radius:12px; background:#ecfccb; border:2px solid #84cc16; color:#3f6212; margin:16px 0;">
+  <strong>Revision history</strong><br/>
+  <strong>March 2026 update:</strong> The expected student deliverable now includes a plugin package, Skill patch, background paper summary, and presentation slides for integration review.
+</div>
+
 ## What to submit
 
 Each team submits one plugin package and one Skill patch proposal.
@@ -18,7 +23,18 @@ team_name_submission.zip
   skill_update/
     skill_patch.md
     skill_rationale.md
+  references/
+    background_papers.md
+  slides/
+    team_name_chatclinic_tool_presentation.pdf
 ```
+
+The expected final deliverable now includes:
+
+- the executable plugin
+- the orchestration proposal (`skill_patch.md`)
+- a short background paper summary
+- presentation slides for final review
 
 ## Minimal manifest
 

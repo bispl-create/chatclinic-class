@@ -2,6 +2,11 @@
 
 `ChatClinic` can be extended by student teams without requiring each team to operate a separate server.
 
+<div style="padding:12px 16px; border-radius:12px; background:#eef2ff; border:2px solid #818cf8; color:#4338ca; margin:16px 0;">
+  <strong>Revision history</strong><br/>
+  <strong>March 2026 update:</strong> Final student submissions should now include background references and presentation slides in addition to the plugin and Skill patch.
+</div>
+
 ## Submission model
 
 For the standard class project:
@@ -116,7 +121,18 @@ team01_submission.zip
   skill_update/
     skill_patch.md
     skill_rationale.md
+  references/
+    background_papers.md
+  slides/
+    team01_chatclinic_tool_presentation.pdf
 ```
+
+Presentation slides should explain:
+
+- the selected background model or paper set
+- how the tool was implemented
+- how the tool is integrated into `ChatClinic`
+- how the Skill patch determines when the tool should be used
 
 ## Related documents
 

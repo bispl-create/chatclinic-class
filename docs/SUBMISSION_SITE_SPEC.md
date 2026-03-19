@@ -2,6 +2,11 @@
 
 This document describes how to structure a class submission site so that student plugins can be integrated into `ChatClinic` with minimal manual cleanup.
 
+<div style="padding:12px 16px; border-radius:12px; background:#ffe4e6; border:2px solid #fb7185; color:#9f1239; margin:16px 0;">
+  <strong>Revision history</strong><br/>
+  <strong>March 2026 update:</strong> Final submissions should clearly contain the plugin package, Skill patch, background papers, and a presentation deck explaining integration into ChatClinic.
+</div>
+
 ## Main design principle
 
 The best submission format is:
@@ -241,4 +246,8 @@ team01_submission.zip
   skill_update/
     skill_patch.md
     skill_rationale.md
+  references/
+    background_papers.md
+  slides/
+    team01_chatclinic_tool_presentation.pdf
 ```

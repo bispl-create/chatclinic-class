@@ -2,6 +2,11 @@
 
 Course companion repository for the **KAIST AI619** class offered in **Spring 2026**.
 
+<div style="padding:12px 16px; border-radius:12px; background:#fef3c7; border:2px solid #f59e0b; color:#92400e; margin:16px 0;">
+  <strong>Revision history</strong><br/>
+  <strong>March 2026 update:</strong> Final submissions must now clearly include the plugin package, Skill patch, background papers for the tool, and presentation slides explaining implementation and ChatClinic integration.
+</div>
+
 This repository supports the `ChatClinic` project workflow used in the course.
 
 Main platform repository:
@@ -57,6 +62,35 @@ This prevents the platform repository from becoming overloaded with course admin
 6. Accepted Skill patches are merged into one master `SKILL.md`.
 
 The official final submission site or upload method will be announced later through **KLMS**.
+
+## Final submission package
+
+Every team should prepare:
+
+- one plugin package
+- one Skill patch proposal
+- one short background paper list for the tool
+- one slide deck explaining implementation and ChatClinic integration
+
+Recommended package structure:
+
+```text
+team01_submission.zip
+  plugin/
+    tool.json
+    run.py
+    README.md
+    requirements.txt
+  skill_update/
+    skill_patch.md
+    skill_rationale.md
+  references/
+    background_papers.md
+  slides/
+    team01_chatclinic_tool_presentation.pdf
+```
+
+Use the detailed submission rules in [docs/SUBMISSION_SITE_SPEC.md](/Users/jongcye/Documents/Codex/workspace/chatclinic-class/docs/SUBMISSION_SITE_SPEC.md).
 
 ## Submission timeline
 
