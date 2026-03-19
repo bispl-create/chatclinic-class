@@ -2,8 +2,9 @@
 
 This document describes how to structure a class submission site so that student plugins can be integrated into `ChatClinic` with minimal manual cleanup.
 
-<div style="padding:12px 16px; border-radius:12px; background:#ffe4e6; border:2px solid #fb7185; color:#9f1239; margin:16px 0;">
+<div style="padding:12px 16px; border-radius:12px; background:#fff1f2; border:2px solid #fb7185; color:#9f1239; margin:16px 0;">
   <strong>Revision history</strong><br/>
+  <strong>March 2026 update:</strong> ChatClinic now supports CPU/GPU-aware tool runtime metadata and first-pass raster medical image intake for <code>PNG</code>, <code>JPG/JPEG</code>, and <code>TIFF</code> via <code>image_review_tool</code>.<br/>
   <strong>March 2026 update:</strong> Final submissions should clearly contain the plugin package, Skill patch, background papers, and a presentation deck explaining integration into ChatClinic.
 </div>
 

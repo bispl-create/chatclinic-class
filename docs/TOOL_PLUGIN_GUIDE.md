@@ -2,8 +2,9 @@
 
 This guide explains how collaborators and student teams can add a new tool for `ChatClinic`.
 
-<div style="padding:12px 16px; border-radius:12px; background:#ecfccb; border:2px solid #84cc16; color:#3f6212; margin:16px 0;">
+<div style="padding:12px 16px; border-radius:12px; background:#fff1f2; border:2px solid #fb7185; color:#9f1239; margin:16px 0;">
   <strong>Revision history</strong><br/>
+  <strong>March 2026 update:</strong> ChatClinic now supports CPU/GPU-aware tool runtime metadata and first-pass raster medical image intake for <code>PNG</code>, <code>JPG/JPEG</code>, and <code>TIFF</code> via <code>image_review_tool</code>.<br/>
   <strong>March 2026 update:</strong> The expected student deliverable now includes a plugin package, Skill patch, background paper summary, and presentation slides for integration review.
 </div>
 
