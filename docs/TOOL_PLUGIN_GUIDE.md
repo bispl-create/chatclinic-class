@@ -52,6 +52,36 @@ Create `tool.json`.
 }
 ```
 
+Recommended metadata:
+
+```json
+{
+  "keywords": ["cohort", "sheet", "subject"],
+  "recommended_stage": "post-intake",
+  "priority": 80,
+  "produces": ["cohort_browser"],
+  "consumes": ["table_rows"]
+}
+```
+
+Recommended runtime metadata:
+
+```json
+{
+  "runtime": {
+    "host_compatible": ["cpu", "gpu"],
+    "supported_accelerators": ["cpu"],
+    "preferred_accelerator": "cpu",
+    "requires_gpu": false,
+    "allow_cpu_fallback": true,
+    "estimated_runtime_sec": 10,
+    "notes": "Explain whether the tool only needs CPU, prefers GPU, or requires GPU."
+  }
+}
+```
+
+These fields help the orchestration Skill choose tools with less manual hard-coding and help the shared runner decide whether a tool can run on CPU, GPU, or both.
+
 ## Execution contract
 
 `ChatClinic` runs the plugin like this:
@@ -65,6 +95,25 @@ Your script must:
 1. read `--input`
 2. write `--output`
 3. exit with code `0` on success
+
+## Best practices
+
+- Keep outputs deterministic when possible.
+- Return structured artifacts, not only free-form prose.
+- Do not assume internet access.
+- Do not assume a GPU unless your tool explicitly documents it in `tool.json`.
+- Do not write outside the plugin working area unless truly needed.
+- Emit helpful stderr messages when a run fails.
+
+## Supported source families in ChatClinic
+
+Plugins can currently be designed around source families such as:
+
+- clinical tables (`csv`, `tsv`, `xlsx`, `xlsm`, `xls`)
+- FHIR / HL7 clinical messages
+- DICOM medical images
+- raster medical images (`png`, `jpg`, `jpeg`, `tif`, `tiff`)
+- plain-text clinical notes
 
 ## Skill update policy
 
