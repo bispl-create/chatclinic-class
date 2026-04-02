@@ -4,6 +4,7 @@
 
 > [!IMPORTANT]
 > **Revision history**
+> - **April 2026 update:** Platform moved to [chatclinic-multimodal](https://github.com/bispl-create/chatclinic-multimodal). Now supports 8 auto-detected source types. Plugins prefer `logic.py` entrypoint over `run.py`. See the platform README for the full architecture.
 > - **March 2026 update:** ChatClinic now supports CPU/GPU-aware tool runtime metadata and first-pass raster medical image intake for `PNG`, `JPG/JPEG`, and `TIFF` via `image_review_tool`.
 > - **March 2026 update:** Final student submissions should now include background references and presentation slides in addition to the plugin and Skill patch.
 

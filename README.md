@@ -4,6 +4,7 @@ Course companion repository for the **KAIST AI619** class offered in **Spring 20
 
 > [!IMPORTANT]
 > **Revision history**
+> - **April 2026 update:** ChatClinic platform repository moved to [chatclinic-multimodal](https://github.com/bispl-create/chatclinic-multimodal). The platform now supports 8 source types (DICOM, PNG/JPG/TIFF, FHIR, Excel, Text, VCF, FASTQ/BAM/SAM, Summary Statistics) with auto-detection on upload. Plugins use `logic.py` entrypoint (preferred) instead of `run.py`. See `@help` in the platform for the full tool guide.
 > - **March 2026 update:** ChatClinic now supports CPU/GPU-aware tool runtime metadata and first-pass raster medical image intake for `PNG`, `JPG/JPEG`, and `TIFF` via `image_review_tool`.
 > - **March 2026 update:** Final submissions must now clearly include the plugin package, Skill patch, background papers for the tool, and presentation slides explaining implementation and ChatClinic integration.
 
@@ -11,7 +12,7 @@ This repository supports the `ChatClinic` project workflow used in the course.
 
 Main platform repository:
 
-- [ChatClinic](https://github.com/bispl-create/chatclinic)
+- [ChatClinic-Multimodal](https://github.com/bispl-create/chatclinic-multimodal)
 
 This repository is meant for:
 
@@ -20,18 +21,19 @@ This repository is meant for:
 - Skill patch proposal templates
 - instructor review and integration workflow
 
-The main application code stays in the `ChatClinic` platform repository.
+The main application code stays in the `ChatClinic-Multimodal` platform repository.
 
 ## Why this repository is separate
 
 It is useful to keep two repositories:
 
-1. **ChatClinic platform repo**
-   - application code
-   - production or demo-ready tools
-   - master Skill
-   - shared runner
-   - GitHub: [https://github.com/bispl-create/chatclinic](https://github.com/bispl-create/chatclinic)
+1. **ChatClinic-Multimodal platform repo**
+   - application code (FastAPI backend + Next.js frontend)
+   - 8 auto-detected source types with bootstrap workflows
+   - master Skill (`SKILL.md` with welcome, help, orchestration rules)
+   - plugin-based tool runner (entrypoint-first)
+   - Studio renderer registry
+   - GitHub: [https://github.com/bispl-create/chatclinic-multimodal](https://github.com/bispl-create/chatclinic-multimodal)
 
 2. **KAIST AI619 course repo**
    - course instructions
@@ -58,7 +60,7 @@ This prevents the platform repository from becoming overloaded with course admin
    - one plugin package
    - one Skill patch proposal
 4. The instructor reviews the tool and the proposed orchestration rule.
-5. Accepted tools are integrated into the main `ChatClinic` repository.
+5. Accepted tools are integrated into the main `ChatClinic-Multimodal` repository.
 6. Accepted Skill patches are merged into one master `SKILL.md`.
 
 The official final submission site or upload method will be announced later through **KLMS**.
@@ -90,7 +92,7 @@ team01_submission.zip
     team01_chatclinic_tool_presentation.pdf
 ```
 
-Use the detailed submission rules in [docs/SUBMISSION_SITE_SPEC.md](/Users/jongcye/Documents/Codex/workspace/chatclinic-class/docs/SUBMISSION_SITE_SPEC.md).
+Use the detailed submission rules in [docs/SUBMISSION_SITE_SPEC.md](docs/SUBMISSION_SITE_SPEC.md).
 
 ## Submission timeline
 

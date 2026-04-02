@@ -4,6 +4,7 @@ This guide explains how collaborators and student teams can add a new tool for `
 
 > [!IMPORTANT]
 > **Revision history**
+> - **April 2026 update:** Platform moved to [chatclinic-multimodal](https://github.com/bispl-create/chatclinic-multimodal). Plugins now prefer `logic.py` with a `run(payload)` entrypoint over `run.py` CLI. The platform supports 8 auto-detected source types.
 > - **March 2026 update:** ChatClinic now supports CPU/GPU-aware tool runtime metadata and first-pass raster medical image intake for `PNG`, `JPG/JPEG`, and `TIFF` via `image_review_tool`.
 > - **March 2026 update:** The expected student deliverable now includes a plugin package, Skill patch, background paper summary, and presentation slides for integration review.
 
@@ -84,7 +85,18 @@ These fields help the orchestration Skill choose tools with less manual hard-cod
 
 ## Execution contract
 
-`ChatClinic` runs the plugin like this:
+**Preferred: `logic.py` entrypoint** (new in April 2026)
+
+```python
+# plugins/my_tool/logic.py
+def run(payload: dict) -> dict:
+    # deterministic work here
+    return {"tool": "my_tool", "summary": "Done.", "artifacts": {}}
+```
+
+The platform calls `run(payload)` directly — no CLI needed.
+
+**Alternative: `run.py` CLI** (still supported)
 
 ```bash
 python3 run.py --input input.json --output output.json
@@ -109,11 +121,14 @@ Your script must:
 
 Plugins can currently be designed around source families such as:
 
-- clinical tables (`csv`, `tsv`, `xlsx`, `xlsm`, `xls`)
-- FHIR / HL7 clinical messages
-- DICOM medical images
-- raster medical images (`png`, `jpg`, `jpeg`, `tif`, `tiff`)
-- plain-text clinical notes
+- DICOM medical images (`.dcm`, `.dicom`)
+- raster medical images (`.png`, `.jpg`, `.jpeg`, `.tiff`, `.tif`, `.bmp`, `.webp`)
+- FHIR clinical bundles (`.fhir.json`, `.fhir.xml`, `.ndjson`)
+- Excel workbooks (`.xlsx`, `.xls`)
+- plain-text / markdown notes (`.txt`, `.md`)
+- VCF variant files (`.vcf`, `.vcf.gz`)
+- raw sequencing (`.fastq`, `.bam`, `.sam`, `.cram`)
+- GWAS summary statistics (`.tsv`, `.csv`, `.gz`)
 
 ## Skill update policy
 
