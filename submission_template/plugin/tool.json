@@ -4,6 +4,6 @@
   "task_type": "analysis-task",
   "modality": "clinical-table",
   "approval_required": true,
-  "entrypoint": "run.py",
+  "entrypoint": "logic.py",
   "description": "Short human-readable description of the tool."
 }

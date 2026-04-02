@@ -242,8 +242,10 @@ In addition, students should decide whether they aim for:
 team01_submission.zip
   plugin/
     tool.json
-    run.py
+    logic.py          ← preferred entrypoint (run(payload) → dict)
+    run.py            ← optional CLI wrapper (--input/--output)
     README.md
+    requirements.txt
   skill_update/
     skill_patch.md
     skill_rationale.md

@@ -18,7 +18,8 @@ Recommended final submission structure:
 team_name_submission.zip
   plugin/
     tool.json
-    run.py
+    logic.py          ← preferred entrypoint (run(payload) → dict)
+    run.py            ← optional CLI wrapper (--input/--output)
     README.md
     requirements.txt
   skill_update/
@@ -48,7 +49,7 @@ Create `tool.json`.
   "task_type": "analysis-task",
   "modality": "clinical-table",
   "approval_required": true,
-  "entrypoint": "run.py",
+  "entrypoint": "logic.py",
   "description": "Short human-readable description of the tool."
 }
 ```

@@ -9,6 +9,7 @@ Student teams propose changes, but they should not replace the shared orchestrat
 For each team, review:
 
 - `plugin/tool.json`
+- `plugin/logic.py` (preferred entrypoint) or `plugin/run.py` (CLI alternative)
 - `plugin/README.md`
 - `skill_update/skill_patch.md`
 - `skill_update/skill_rationale.md`
@@ -19,7 +20,7 @@ When merging proposals into the master Skill:
 
 - keep the Skill high level
 - keep routing policy human-readable
-- do not copy implementation details from `run.py`
+- do not copy implementation details from `logic.py` or `run.py`
 - prefer one short rule over many scattered mentions
 
 ## Educational bonus consideration
@@ -50,6 +51,16 @@ This is better than a single isolated tool if the Skill patch clearly explains:
 - what each tool contributes to the final result
 
 That kind of proposal should generally receive more credit than a plugin that only performs one isolated operation without orchestration logic.
+
+## Current SKILL.md structure
+
+The master `SKILL.md` in `chatclinic-multimodal` uses these top-level sections:
+
+- `## Welcome message` — displayed on initial page load
+- `## Help message` — shown when user types `@help`
+- `## Orchestration rules` — routing, grounding, and tool-selection policy
+
+Student Skill patches should target the **Orchestration rules** section. The Welcome and Help sections are maintained by the instructor.
 
 ## Runtime-aware integration check
 

@@ -116,7 +116,8 @@ Higher-scoring projects usually demonstrate:
 team01_submission.zip
   plugin/
     tool.json
-    run.py
+    logic.py          ← preferred entrypoint (run(payload) → dict)
+    run.py            ← optional CLI wrapper (--input/--output)
     requirements.txt
     README.md
   skill_update/
