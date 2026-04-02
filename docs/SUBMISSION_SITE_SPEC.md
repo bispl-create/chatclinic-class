@@ -4,7 +4,8 @@ This document describes how to structure a class submission site so that student
 
 > [!IMPORTANT]
 > **Revision history**
-> - **April 2026 update:** Platform moved to [chatclinic-multimodal](https://github.com/bispl-create/chatclinic-multimodal). Plugins prefer `logic.py` entrypoint. 8 source types auto-detected.
+> - **April 2026 update:** NIfTI volume added as the 9th source type.
+> - **April 2026 update:** Platform moved to [chatclinic-multimodal](https://github.com/bispl-create/chatclinic-multimodal). Plugins prefer `logic.py` entrypoint. 9 source types auto-detected.
 > - **March 2026 update:** ChatClinic now supports CPU/GPU-aware tool runtime metadata and first-pass raster medical image intake for `PNG`, `JPG/JPEG`, and `TIFF` via `image_review_tool`.
 > - **March 2026 update:** Final submissions should clearly contain the plugin package, Skill patch, background papers, and a presentation deck explaining integration into ChatClinic.
 

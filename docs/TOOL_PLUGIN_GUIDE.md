@@ -4,7 +4,8 @@ This guide explains how collaborators and student teams can add a new tool for `
 
 > [!IMPORTANT]
 > **Revision history**
-> - **April 2026 update:** Platform moved to [chatclinic-multimodal](https://github.com/bispl-create/chatclinic-multimodal). Plugins now prefer `logic.py` with a `run(payload)` entrypoint over `run.py` CLI. The platform supports 8 auto-detected source types.
+> - **April 2026 update:** NIfTI volume added as the 9th source type with 3D Niivue viewer.
+> - **April 2026 update:** Platform moved to [chatclinic-multimodal](https://github.com/bispl-create/chatclinic-multimodal). Plugins now prefer `logic.py` with a `run(payload)` entrypoint over `run.py` CLI. The platform supports 9 auto-detected source types.
 > - **March 2026 update:** ChatClinic now supports CPU/GPU-aware tool runtime metadata and first-pass raster medical image intake for `PNG`, `JPG/JPEG`, and `TIFF` via `image_review_tool`.
 > - **March 2026 update:** The expected student deliverable now includes a plugin package, Skill patch, background paper summary, and presentation slides for integration review.
 

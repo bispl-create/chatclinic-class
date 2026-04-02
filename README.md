@@ -4,7 +4,8 @@ Course companion repository for the **KAIST AI619** class offered in **Spring 20
 
 > [!IMPORTANT]
 > **Revision history**
-> - **April 2026 update:** ChatClinic platform repository moved to [chatclinic-multimodal](https://github.com/bispl-create/chatclinic-multimodal). The platform now supports 8 source types (DICOM, PNG/JPG/TIFF, FHIR, Excel, Text, VCF, FASTQ/BAM/SAM, Summary Statistics) with auto-detection on upload. Plugins use `logic.py` entrypoint (preferred) instead of `run.py`. See `@help` in the platform for the full tool guide.
+> - **April 2026 update:** NIfTI volume (`.nii`, `.nii.gz`) added as the 9th source type with `nifti_review_tool` (nibabel metadata extraction) and interactive 3D Niivue viewer in Studio. Multimodal grounded chat (`$studio`) now includes NIfTI context alongside all other loaded sources.
+> - **April 2026 update:** ChatClinic platform repository moved to [chatclinic-multimodal](https://github.com/bispl-create/chatclinic-multimodal). The platform now supports 9 source types (DICOM, PNG/JPG/TIFF, NIfTI, FHIR, Excel, Text, VCF, FASTQ/BAM/SAM, Summary Statistics) with auto-detection on upload. Plugins use `logic.py` entrypoint (preferred) instead of `run.py`. See `@help` in the platform for the full tool guide.
 > - **March 2026 update:** ChatClinic now supports CPU/GPU-aware tool runtime metadata and first-pass raster medical image intake for `PNG`, `JPG/JPEG`, and `TIFF` via `image_review_tool`.
 > - **March 2026 update:** Final submissions must now clearly include the plugin package, Skill patch, background papers for the tool, and presentation slides explaining implementation and ChatClinic integration.
 
@@ -29,7 +30,7 @@ It is useful to keep two repositories:
 
 1. **ChatClinic-Multimodal platform repo**
    - application code (FastAPI backend + Next.js frontend)
-   - 8 auto-detected source types with bootstrap workflows
+   - 9 auto-detected source types with bootstrap workflows
    - master Skill (`SKILL.md` with welcome, help, orchestration rules)
    - plugin-based tool runner (entrypoint-first)
    - Studio renderer registry

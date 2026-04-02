@@ -22,7 +22,7 @@ Instead, submit a small proposal describing how the orchestrator should use the 
 - Do not use this tool when ...
 
 ## Source type
-- vcf / raw_qc / summary_stats / dicom / image / fhir / spreadsheet / text
+- vcf / raw_qc / summary_stats / dicom / image / nifti / fhir / spreadsheet / text
 
 ## Modality
 - clinical-table / medical-image / fhir / genomics / note / mixed
